@@ -57,7 +57,6 @@ HTTP Body Content :
 ````
 Validate
 ```javascript
-//BTC ETH USDTERC20
 const validateresult = payments.validateIPN(appkey,signature,nonce,timestamp,txid,amount,currency);
 if(validateresult == true){
 	//valid IPN , process the vars
