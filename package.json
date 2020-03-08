@@ -1,0 +1,24 @@
+{
+  "name": "arowpay-nodejs",
+  "version": "1.0.0",
+  "description": "NPM module for acquiring payments and IPNs from the Arowpay API without form authentication hassle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:arowpay/arowpay-nodejs.git"
+  },
+  "author": "Arowpay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arowpay/arowpay-nodejs/issues"
+  },
+  "homepage": "https://github.com/arowpay/arowpay-nodejs#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  }
+}
