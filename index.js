@@ -26,7 +26,7 @@ function arowpay(options, callback) {
  * @param {String} currency Specify currency type.
  * @param {Function} callback Callback (err, result)
  */
-arowpay.prototype.getCallbackAddress = function(cmd,options,callback){
+arowpay.prototype.callApi = function(cmd,options,callback){
 	var formData = querystring.stringify(options);
 	const nonce = (parseInt(Math.random() * 0xffffff)).toString();
 	const timestamp = (Date.parse(new Date()) / 1000).toString();

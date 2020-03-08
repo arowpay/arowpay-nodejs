@@ -33,7 +33,8 @@ const payments = new arowpay(options, (err, result) => {
 By specifying the sending currency, a unique deposit address will be returned to you.
 ```javascript
 //BTC ETH USDTERC20
-payments.getCallbackAddress("BTC","CustomString" (err, result) => {
+const options = {currency:"BTC",custom:"customStrings"}
+payments.callApi("getCallbackAddress",options, (err, result) => {
 	if(err) throw err;
 	console.log(result);
 });
