@@ -1,4 +1,4 @@
-#arowpay-nodejs
+# arowpay-nodejs
 
 > NPM module for acquiring payments from the Arowpay API without form authentication hassle.
 
